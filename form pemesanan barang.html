@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Web Page</title>
+</head>
+<body bgcolor="lightgrey">
+    <fieldset>
+        <table align="center">
+             <tr>
+                <td>Home    |</td>
+                <td style="padding-left:20px ;">Generate Link   |</td>
+                <td style="padding-left:20px ;">Transaction History     |</td>
+                <td style="padding-left:20px ;">Policy      |</td>
+                <td style="padding-left:20px ;">Logout</td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <table border="0" align="center">
+        <tr>
+            <td><label for="title">Title Here</label></td>
+            <td><label for="title">:</label></td>
+            <td><input type="text" name="title" id="title" style="width: 380px ;"></td>
+        </tr>
+        <tr>
+            <td><label for="deskripsi">Description</label></td>
+            <td><label for="deskripsi">:</label></td>
+            <td><textarea name="deskripsi" id="deskripsi" cols="50" ws="5"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="nomerakun">Account Number</label></td>
+            <td><label for="nomerakun">:</label></td>
+            <td><input type="text" name="nomerakun" id="nomerakun" style="width:380px ;"></td>
+        </tr>
+        <tr>
+            <td><label for="bank">Bank</label></td>
+            <td><label for="bank">:</label></td>
+            <td><select name="bank" id="bank" style="width:150px ;">
+                <option>HSNBC</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="akunholder">Account Holder</label></td>
+            <td><label for="akunholder">:</label></td>
+            <td><input type="text" name="akunholder" id="akunholder" style="width:250px ;"></td>
+        </tr>
+        <tr>
+            <td><label for="transaksi">Transaction</label></td>
+            <td><label for="transaksi">:</label></td>
+            <td><select name="transaksi" id="transaksi">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td>
+                <p>* if the transaction is for 3 person, choose 3 from the drop-down list</p>
+                <p><input type="checkbox">Send to Mobile Phone</p>
+                <p><input type="checkbox">Send to Email</p>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="sendphone">Send to Mobile Phone</label></td>
+            <td><label for="sendphone">:</label></td>
+            <td><input type="text" id="sendphone" name="sendphone"></td>
+        </tr>
+        <tr>
+            <td><label for="sendmail">Send to Email</label></td>
+            <td><label for="sendmail">:</label></td>
+            <td><input type="text" id="sendmail" name="sendmail"></td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center"><input type="submit" value="Generate Nabr Link" style="color: white; background-color: green;" ></td>
+        </tr>
+    </table>
+</body>
+</html>
